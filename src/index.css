@@ -1,13 +1,88 @@
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.infoContainer {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  
 }
+
+.card {
+  position: relative;
+  height: 590px;
+  width: 450px;
+  margin: 20px auto;
+  padding: 15px;
+  box-shadow: 0 0 5px 0 grey;
+  border-radius: 3px;
+}
+
+img {
+  width: 100%;
+}
+
+.butDetalis {
+  border: 2px solid rgb(11, 199, 228);
+  background-color: rgb(250, 250, 254);
+  border-radius: 3px;
+  color: rgb(24, 221, 211);
+  padding: 5px 15px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;  
+}
+
+.sectionContainer {
+  position: absolute;
+  left: 95%;
+  bottom: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+  width: 70%;
+  height: 20%;
+  box-shadow: 0 0 5px 0 grey;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.fff {
+  margin-top: 5px;
+  font-weight: 600;
+}
+.sectionContainer button {
+  width: fit-content;
+  border: none;
+  background-color:transparent;
+  color:red;
+  padding: 2%;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.butDetalistwo {
+  width: 35%;
+  background-color: rgb(12, 217, 70);
+  color: #fff;
+  border-radius:3px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.notInBasket {
+  width: 130px;
+  color :red;
+  font-size: 13px;
+  text-decoration: underline;
+  margin: 7px 0 0 7px;
+  cursor: pointer;
+}
+
